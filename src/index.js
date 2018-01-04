@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // IMPORTANT!!!! uncomment the lines below to make your tests work
+<<<<<<< HEAD
 const meInReact =
   React.createElement('div', { className: 'me' },
     React.createElement('h1', {}, 'An Awesome Person'),
@@ -13,6 +14,8 @@ const meInReact =
       React.createElement('li', {}, 'Ice cream')
     ])
   );
+=======
+>>>>>>> 10486d90ac2a35772d7e81946031a26ff45bc7fb
 
 ReactDOM.render(
   meInReact,
